@@ -1,0 +1,50 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="myselfie.png"></a>
+        <h1>Collage Web App 
+        <img id="logo_img" src="selfie.jpeg">
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "collage"</h3>
+            <label>Your voice output : </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result"></div>
+    </center>
+    </div>
+    <center>
+        <img src="https://shop-eu.kurzgesagt.org/cdn/shop/products/Dyson-Sphere_2048x2048_75793541-bb25-4b3d-b14c-805f84010bf2.jpg?v=1666172680&width=2048" width="50%" >
+        <label height="50px"></label>
+        <img src="https://shop-eu.kurzgesagt.org/cdn/shop/products/01_EE_EvolutionMap_Rework_Front_461dc2d9-2219-4543-8e12-2c6e5c174589.jpg?crop=center&v=1631527803&width=540" width="50%" >
+        <label height="50px"></label>
+        <img src="https://shop-eu.kurzgesagt.org/cdn/shop/products/01_EE_PeriodicTable_Rework_Front.jpg?crop=center&v=1646665310&width=540" width="50%">
+        
+    </center>
+
+    <script src="main.js"></script>
+</body>
+</html>
